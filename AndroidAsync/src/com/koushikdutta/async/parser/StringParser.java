@@ -13,7 +13,7 @@ import java.nio.charset.Charset;
  * Created by koush on 5/27/13.
  */
 public class StringParser implements AsyncParser<String> {
-    Charset forcedCharset;
+    Charset forcedCharset = Charset.forName("utf-8");
 
     public StringParser() {
     }
